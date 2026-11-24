@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "deny": [
+      "Write(coda/**)", "Edit(coda/**)",
+      "Write(pubblicati/**)", "Edit(pubblicati/**)",
+      "Write(.approvazioni/**)", "Edit(.approvazioni/**)"
+    ]
+  },
+  "hooks": {
+    "UserPromptSubmit": [
+      { "hooks": [ { "type": "command", "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/registra-approvo.mjs\"" } ] }
+    ],
+    "PreToolUse": [
+      { "matcher": "Write|Edit|MultiEdit|NotebookEdit|Bash|mcp__.*",
+        "hooks": [ { "type": "command", "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/blocca-pubblicazione.mjs\"" } ] }
+    ]
+  }
+}
