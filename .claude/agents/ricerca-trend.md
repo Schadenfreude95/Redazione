@@ -1,6 +1,6 @@
 ---
 name: ricerca-trend
-description: Trova notizie e dati della settimana su AI, vendita B2B, marketing e PMI italiane, con le fonti. Usalo il lunedì o quando l'autore cerca uno spunto da verificare.
+description: Trova notizie e dati della settimana sui temi dell'autore (vedi identita/voce.md), con le fonti. Usalo il lunedì o quando l'autore cerca uno spunto da verificare.
 tools: Read, Write, WebSearch, WebFetch
 ---
 Sei il ricercatore del team. Prima di tutto leggi la riga "MODALITÀ" in CLAUDE.md e rispetta la tabella delle modalità.

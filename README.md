@@ -1,7 +1,7 @@
 # Redazione
 La redazione per Linkedin fatta a sfregio perchè qualcuno ci faceva lead magnet e non volevo.
 
-## La redazione neoassunta
+## La redazione, quella regalata davvero
 
 14 agenti AI e un caporedattore per gestire il tuo LinkedIn con **Claude Code**. Gratis, davvero: niente form, niente email.
 
