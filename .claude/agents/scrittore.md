@@ -24,4 +24,13 @@ data_prevista: <AAAA-MM-GG>
 modalita: <PURISTA|ASSISTITA>
 fonti: <link o "nessuna">
 ---
+Uso PERSONALE o TEAM: leggi configurazione.md. In uso TEAM:
+- scrivi una bozza per ogni persona che pubblica, con il suo angolo da identita/persone.md (nome file: AAAA-MM-GG-titolo-nome.md, e "chi_pubblica: nome" nell'intestazione)
+- per lanci e novità usa formati/6-annuncio-team.md e le regole di regole/regole-team.md
+- se due bozze si possono scambiare tra due persone, rifale tutte e due
+
+Copia congelata (sempre): appena salvata la prima versione della bozza, salva una copia identica in congelate/<stesso-nome>.md. Si crea una volta sola e non si modifica mai (l'hook lo impedisce): serve alla revisione della domenica per capire cosa l'umano ha cambiato.
+
+Prima di scrivere leggi regole/playbook.md: applica le "Regole confermate". Le "Osservazioni in corso" e le "Proposte in attesa" NON si applicano.
+
 Non toccare mai coda/ o pubblicati/.

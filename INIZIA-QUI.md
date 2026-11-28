@@ -7,6 +7,7 @@
 
 ## Passo 1 · Apri la redazione
 Scompatta la cartella, apri un terminale dentro, lancia `claude`. Scrivi: **"ciao, primo avvio"**.
+La prima domanda sarà: **uso personale o team?** In uso team ti chiede anche chi pubblica e con quale angolo.
 
 ## Passo 2 · I tuoi numeri
 Su LinkedIn: profilo → Analisi → Impressioni dei post → **Esporta** (scegli il periodo più lungo).
@@ -27,6 +28,13 @@ Correggi tutto quello che non ti somiglia. Ogni volta che una bozza ti fa schifo
 
 ## Passo 5 · Il primo lunedì
 Scrivi **"lunedì"**. Il team ti chiede i numeri del profilo, cerca le notizie, ti fa 3 domande per tirare fuori le storie e prepara il calendario.
+
+## Passo 6 · Notion e automazioni (facoltativo)
+- **Notion:** collega il connettore Notion a Claude. Alla prima pubblicazione il team ti chiede dove creare il database "Pubblicazioni LinkedIn" con le task.
+- **Automazioni:** in `automazioni/` ci sono i prompt del lunedì e della domenica, da programmare come task programmate nell'app Claude. Oppure scrivi "lunedì" e "domenica" a mano.
+
+## Come il team impara da te
+Ogni bozza del team viene congelata in `congelate/`. Quando il post esce scrivi **"pubblicato"** (e incolla il testo se l'hai cambiato all'ultimo). Uno script confronta la proposta con quello che hai pubblicato: intatto, ritoccato o riscritto, gancio, chiusura, lunghezza, parole tolte. La domenica l'analista aggiorna `regole/playbook.md` e ti chiede quali osservazioni far diventare regole. **Decidi sempre tu.** Settimana dopo settimana, la distanza tra quello che il team propone e quello che pubblichi si accorcia.
 
 ## Come funziona l'approvazione
 1. Le bozze finiscono in `bozze/`.

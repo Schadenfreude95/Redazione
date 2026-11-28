@@ -6,7 +6,9 @@ La redazione per Linkedin fatta a sfregio perchè qualcuno ci faceva lead magnet
 14 agenti AI e un caporedattore per gestire il tuo LinkedIn con **Claude Code**. Gratis, davvero: niente form, niente email.
 
 Analizzano i tuoi numeri, trovano le regole che funzionano per te, ti fanno le domande giuste per tirare fuori le storie, tengono il calendario e controllano le bozze.
-**Non pubblicano niente senza che tu scriva APPROVO.**
+**Non pubblicano niente senza che tu scriva APPROVO.** E imparano da quello che correggi: ogni proposta viene confrontata con quello che pubblichi davvero, e le correzioni ricorrenti diventano regole, solo se dici sì.
+
+Funziona per **uso personale** o per **un team** che pubblica con la stessa voce e angoli diversi: lo scegli al primo avvio.
 
 → **Parti da [INIZIA-QUI.md](INIZIA-QUI.md).**
 
@@ -34,7 +36,10 @@ esempi/                   i tuoi post e i tuoi commenti (da compilare)
 statistiche/              export LinkedIn e numeri settimanali
 profilo/                  checklist del profilo
 idee/ bozze/ coda/ pubblicati/
-scripts/metti-in-coda.mjs
+scripts/                  metti-in-coda, segna-pubblicato, confronta
+congelate/                prime proposte del team, intoccabili
+automazioni/              prompt del lunedì e della domenica
+configurazione.md         uso personale o team, task su Notion
 ```
 
 ## Requisiti
