@@ -23,8 +23,9 @@ Lo Starter installa la redazione. **Tutto quello che raccoglie diventa file pers
 4. **Cosa vuoi ottenere con LinkedIn**: cosa vendi, a chi, qual è il primo passo per chi ti contatta, e se vendi nei post o no
 5. **Chi ammiri e a chi non vuoi somigliare** su LinkedIn
 6. **Le tue regole che non si discutono** (es. "niente politica", "mai nominare i clienti")
-7. **Una pagina di Notion** dove creare il database delle task di pubblicazione (facoltativo)
-8. **In uso team**: chi pubblica, con che ruolo, e chi revisiona
+7. **15-30 profili da seguire** su LinkedIn (soprattutto il tuo cliente ideale)
+8. **Una pagina di Notion** dove creare il database delle task di pubblicazione (facoltativo)
+9. **In uso team**: chi pubblica, con che ruolo, e chi revisiona
 
 ## Passi
 
@@ -78,6 +79,10 @@ Mostra l'assegnazione di `base/modelli.json` (modelli potenti per scrittura e vo
 Fai un post vero con `/nuovo-post`, su una storia che l'autore racconta lì per lì (usa le domande dell'`intervistatore`). Chiedi di correggere la bozza come se dovesse pubblicarla.
 - Ogni correzione di stile che l'autore fa a voce ("questo non lo direi mai", "troppo ordinato") diventa subito una riga in `identita/voce.md` → "Errori del team da non ripetere": è già approvata, perché viene da lui.
 - Se vuole pubblicarlo davvero: `APPROVO` e il flusso normale. Altrimenti la bozza resta in `bozze/` con "prova" nel nome.
+
+### 14b. Banco di prova e profili da seguire
+- Il post di prova, con il suo materiale e la versione finale dell'autore, diventa il primo caso in `banco/casi/` (vedi `banco/README.md`). Se l'autore ha altri post di cui ricorda gli appunti di partenza, aggiungine fino a 3.
+- Chiedi 15-30 profili da seguire (cliente ideale prima di tutto) per il protocollo della prima ora: `identita/profili-da-seguire.md`.
 
 ### 15. Profilo (facoltativo)
 Proponi la checklist di `profilo/checklist-profilo.md`. Se l'autore incolla titolo e Informazioni, il team li rivede, ma ricorda che la sezione Informazioni è meglio se la scrive lui.

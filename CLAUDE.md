@@ -44,7 +44,10 @@ Scritto dall'autore in `identita/cliente-ideale.md`: cosa vuole ottenere con Lin
 - `regole/regole.md`: le tue regole, di partenza e ricavate dai numeri
 - `base/regole-team.md` e `identita/persone.md`: solo in uso TEAM
 - `regole/playbook.md`: cosa il team impara dalle revisioni (Regole confermate = vincolanti)
-- `congelate/`: le prime proposte del team, intoccabili, per il confronto
+- `congelate/`: le proposte del team, intoccabili, per il confronto
+- `esempi/coppie/`: coppie prima/dopo con il perché (gli esempi più utili per lo scrittore)
+- `banco/`: il banco di prova (misura se il team si avvicina all'autore)
+- `identita/profili-da-seguire.md` e `base/protocollo-prima-ora.md`: la prima ora
 - `formati/`: i formati dell'autore
 - `esempi/archivio-post.md`: i post con i numeri
 - `esempi/commenti.md`: commenti scritti dall'autore (la voce senza filtro)
@@ -72,14 +75,15 @@ Scritto dall'autore in `identita/cliente-ideale.md`: cosa vuole ottenere con Lin
 
 ## Il flusso
 1. **Idea** → `intervistatore` + `archivio-idee` → `idee/AAAA-MM-GG-titolo.md`
-2. **Bozza** → `scrittore` → `bozze/AAAA-MM-GG-titolo.md` (in uso TEAM una per persona) + copia identica in `congelate/` (intoccabile)
+2. **Bozza** → `scrittore`, partendo da 2-3 post dell'autore e dalle coppie prima/dopo → `bozze/AAAA-MM-GG-titolo.md` (in uso TEAM una per persona), con 3 varianti di gancio e chiusura (ASSISTITA). Ogni versione viene salvata da sola in `bozze/.versioni/`
+2b. **Scelta** → l'autore sceglie le varianti (registrate in `statistiche/scelte.csv`) → copia in `congelate/` (intoccabile) + previsione del `cliente-ideale`
 3. **Revisione** in parallelo → `ganci`, `editor`, `custode-voce`, `cliente-ideale`
 4. **Controllo finale** → `verificatore` (sempre, per ultimo)
 5. **Approvazione** → l'autore scrive `APPROVO bozze/nome-file.md` su una riga da sola
-6. **Coda** → `pubblicatore` → `coda/` + task "Da pubblicare" su Notion → l'autore pubblica
+6. **Coda** → `pubblicatore` → `coda/` + task "Da pubblicare" su Notion → `/prima-ora` → l'autore pubblica
 7. **Uscito** → l'autore scrive "pubblicato" → `scripts/segna-pubblicato.mjs` → `pubblicati/` + confronto automatico con la copia congelata (`statistiche/revisioni.csv`) + task Notion "Pubblicato"
 8. **Dopo qualche giorno** → `community` per i commenti, `analista` per i numeri
-9. **Domenica** → `analista` legge i confronti e aggiorna `regole/playbook.md`. **Una proposta diventa regola solo con il sì dell'umano.**
+9. **Domenica** → `analista` legge confronti, coppie, versioni, messaggi dell'autore, scelte e previsioni; spiega le coppie e aggiorna `regole/playbook.md`. Una proposta viene verificata su tutte le coppie ("coerente con N su M") e **diventa regola solo con il sì dell'umano**. Dopo ogni regola approvata: `/banco`.
 
 ## Regole che non si toccano
 - **L'ultima parola è sempre dell'umano**: nessuna regola entra nel playbook, nessun post esce, nessun commento parte senza il suo sì.
@@ -92,4 +96,4 @@ Scritto dall'autore in `identita/cliente-ideale.md`: cosa vuole ottenere con Lin
 - Le regole BLOCCANTI (`base/regole-comuni.md` e quelle segnate in `regole/regole.md`) fermano la bozza.
 
 ## Comandi
-`/comandi` · `/starter` · `/nuovo-post` · `APPROVO bozze/<file>.md` · `/pubblicato` · `/lunedi` · `/domenica` · `/proposte` · `/storico` · `/aggiorna-sistema`. Se l'autore scrive "lunedì", "domenica" o "pubblicato" senza la barra, usa la skill corrispondente.
+`/comandi` · `/starter` · `/nuovo-post` · `APPROVO bozze/<file>.md` · `/prima-ora` · `/pubblicato` · `/banco` · `/lunedi` · `/domenica` · `/proposte` · `/storico` · `/aggiorna-sistema`. Se l'autore scrive "lunedì", "domenica" o "pubblicato" senza la barra, usa la skill corrispondente.

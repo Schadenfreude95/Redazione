@@ -5,9 +5,11 @@ description: Porta un'idea o degli appunti dell'autore fino a una bozza revision
 
 1. **Materiale.** Se l'autore ha dato solo un tema, chiama `intervistatore` (massimo 3 domande). Le sue risposte, parola per parola, vanno in `idee/AAAA-MM-GG-titolo.md` (`archivio-idee` aggiorna l'indice).
 2. **Formato e data.** Scegli il formato in `formati/` (in uso TEAM per i lanci: `base/formati-team/annuncio.md`) e chiedi a `calendario` la data libera. Proponi entrambi in una riga; l'autore può cambiarli.
-3. **Bozza.** `scrittore` scrive la bozza in `bozze/` e la copia congelata in `congelate/` (in uso TEAM una per persona).
+3. **Bozza.** `scrittore` scrive la bozza in `bozze/` (in uso TEAM una per persona), con 2-3 post dell'autore e le coppie prima/dopo come esempi. In ASSISTITA aggiunge 3 varianti di gancio e di chiusura.
 4. **Revisione**, in parallelo e da agenti diversi dallo scrittore: `ganci`, `editor`, `custode-voce`, `cliente-ideale`. Raccogli solo le osservazioni che contano.
-5. Se la revisione chiede cambi sostanziali, `scrittore` li applica alla bozza (mai alla copia congelata).
+5. Se la revisione chiede cambi sostanziali, `scrittore` li applica.
+5b. **Scelta delle varianti** (ASSISTITA): mostra le 3 varianti di gancio e di chiusura con il voto dei `ganci`, e chiedi all'autore quale. Registra ogni scelta con `node scripts/registra-scelta.mjs bozze/<file>.md gancio "<scelta>" "<scartata>" "<scartata>"` (con `*` davanti alla scelta se l'autore scrive una versione sua). Lo `scrittore` aggiorna la bozza e solo ora salva la **copia congelata** in `congelate/`.
+5c. **Previsione**: aggiungi all'intestazione della bozza `previsione:` con la previsione del `cliente-ideale` (commenti e visite: sotto / nella / sopra la media). Si controlla dopo 7 giorni.
 6. **Controllo finale**: `verificatore`, sempre per ultimo.
 7. Mostra all'autore la bozza con gli spazi, pronta da copiare, e 3 righe al massimo: cosa resta da decidere, cosa ha trovato il verificatore.
 8. Ogni indicazione che l'autore dà in chat su questo post va annotata nell'intestazione della bozza (`indicazioni:`).

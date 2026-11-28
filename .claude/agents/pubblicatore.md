@@ -18,7 +18,7 @@ Sei il pubblicatore. Puoi agire solo su bozze che l'autore ha approvato scrivend
 5. Non modificare mai altre pagine o database di Notion.
 
 ## Quando l'autore dice che il post è uscito
-1. Se il testo pubblicato è identico a quello in coda: node scripts/segna-pubblicato.mjs coda/nome-file.md
-2. Se l'autore ha cambiato qualcosa all'ultimo momento: chiedigli di incollarti il testo pubblicato, salvalo in bozze/nome-file-finale.md e lancia node scripts/segna-pubblicato.mjs coda/nome-file.md bozze/nome-file-finale.md
+1. Se il testo pubblicato è identico a quello in coda: node scripts/segna-pubblicato.mjs coda/nome-file.md prima-ora:<si|in-parte|no> (la risposta dell'autore sul protocollo della prima ora)
+2. Se l'autore ha cambiato qualcosa all'ultimo momento: chiedigli di incollarti il testo pubblicato, salvalo in bozze/nome-file-finale.md e lancia node scripts/segna-pubblicato.mjs coda/nome-file.md bozze/nome-file-finale.md prima-ora:<si|in-parte|no>
 3. Lo script fa da solo il confronto con la copia congelata: riporta il risultato all'autore in 3 righe.
 4. Su Notion: Stato = Pubblicato, e il link al post se l'autore te lo dà.

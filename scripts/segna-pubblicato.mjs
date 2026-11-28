@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Uso: node scripts/segna-pubblicato.mjs coda/<file>.md [bozze/<testo-finale>.md]
+// Uso: node scripts/segna-pubblicato.mjs coda/<file>.md [bozze/<testo-finale>.md] [prima-ora:si|in-parte|no]
 // Sposta il post da coda/ a pubblicati/. Se l'autore ha cambiato il testo all'ultimo momento,
 // passa come secondo argomento un file in bozze/ con il testo davvero pubblicato.
 // Poi lancia il confronto con la copia congelata, se esiste.
@@ -9,7 +9,9 @@ import { fileURLToPath } from 'node:url';
 import { execFileSync } from 'node:child_process';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
-const [src, finale] = process.argv.slice(2);
+const args = process.argv.slice(2);
+const primaOra = (args.find(a => a.startsWith('prima-ora:')) || '').slice(10);
+const [src, finale] = args.filter(a => !a.startsWith('prima-ora:'));
 if (!/^coda\/[\w.\-]+\.md$/.test(src || '')) { console.error('Uso: node scripts/segna-pubblicato.mjs coda/<file>.md [bozze/<testo-finale>.md]'); process.exit(1); }
 if (finale && !/^bozze\/[\w.\-]+\.md$/.test(finale)) { console.error('Il testo finale deve stare in bozze/.'); process.exit(1); }
 const name = basename(src);
@@ -23,7 +25,7 @@ if (finale) {
 mkdirSync(join(root, 'pubblicati'), { recursive: true });
 const dest = join(root, 'pubblicati', name);
 if (existsSync(dest)) { console.error(`pubblicati/${name} esiste già.`); process.exit(1); }
-writeFileSync(dest, content.replace(/^data_prevista:/m, `pubblicato_il: ${new Date().toISOString().slice(0, 10)}\ndata_prevista:`));
+writeFileSync(dest, content.replace(/^data_prevista:/m, `pubblicato_il: ${new Date().toISOString().slice(0, 10)}\n${primaOra ? `prima_ora: ${primaOra}\n` : ''}data_prevista:`));
 rmSync(join(root, src));
 console.log(`Pubblicato: pubblicati/${name}`);
 if (existsSync(join(root, 'congelate', name))) {

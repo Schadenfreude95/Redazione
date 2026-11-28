@@ -17,7 +17,7 @@ Lo Starter ti mostra subito la lista del materiale da preparare (export di Linke
 `/nuovo-post` → correggi → `APPROVO bozze/<file>.md` → pubblichi → `/pubblicato` → la domenica `/domenica`.
 
 ## Come il team impara da te
-Ogni bozza del team viene congelata in `congelate/`. Quando pubblichi, uno script confronta la proposta con quello che hai pubblicato davvero. La domenica l'analista aggiorna `regole/playbook.md` e ti chiede quali correzioni far diventare regole. **Decidi sempre tu.**
+Ogni bozza del team viene congelata. Quando pubblichi, uno script la confronta con quello che hai pubblicato davvero e salva la coppia "prima/dopo": la domenica l'analista ci scrive il perché, e da lì in poi lo scrittore la usa come esempio. Il team salva anche ogni versione delle bozze, i tuoi commenti e le varianti che scegli. Le correzioni ricorrenti diventano regole solo se reggono su tutti i post e se dici sì. Con `/banco` vedi se il team si sta davvero avvicinando a te.
 
 ## Un consiglio da chi l'ha già usata
 Il team è bravissimo a leggere i numeri, trovare le regole e tenere il calendario. A scrivere come te, meno. Usalo per quello che sa fare. La penna tienila tu.

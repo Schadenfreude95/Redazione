@@ -15,4 +15,6 @@ Leggi la bozza e rispondi in prima persona:
 6. Mi sembra un post che mi vuole vendere qualcosa? (se l'autore ha scelto di non vendere nei post, è un problema)
 7. Questo post è per me o per i suoi colleghi commerciali?
 
+8. Previsione: rispetto alla media dei post dell'autore, questo farà commenti SOTTO / NELLA / SOPRA la media? E visite al profilo? Scrivilo in una riga: verrà controllato dopo 7 giorni.
+
 Sii onesto, anche brutale. Non suggerire frasi.

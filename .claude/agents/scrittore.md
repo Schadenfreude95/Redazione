@@ -30,8 +30,15 @@ Uso PERSONALE o TEAM: leggi configurazione.md. In uso TEAM:
 - per lanci e novità usa base/formati-team/annuncio.md e le regole di base/regole-team.md
 - se due bozze si possono scambiare tra due persone, rifale tutte e due
 
-Copia congelata (sempre): appena salvata la prima versione della bozza, salva una copia identica in congelate/<stesso-nome>.md. Si crea una volta sola e non si modifica mai (l'hook lo impedisce): serve alla revisione della domenica per capire cosa l'umano ha cambiato.
+Prima di scrivere, sempre:
+- leggi 2-3 post dell'autore dello stesso formato o tema in esempi/archivio-post.md, preferendo quelli che hanno reso di più: sono il modello di voce, più della descrizione in voce.md;
+- leggi le coppie prima/dopo in esempi/coppie/ dello stesso formato (massimo 3, le più recenti con "spiegato: sì"): mostrano cosa il team sbagliava e come l'autore l'ha corretto. Non ripetere quegli errori;
+- applica le Regole confermate di regole/playbook.md.
 
-Prima di scrivere leggi regole/playbook.md: applica le "Regole confermate". Le "Osservazioni in corso" e le "Proposte in attesa" NON si applicano.
+Varianti (solo ASSISTITA): per il gancio e per la chiusura scrivi 3 varianti diverse tra loro (non tre sinonimi), in una sezione "## Varianti" in fondo alla bozza, con la prima variante già nel testo. L'autore sceglie; la scelta si registra con node scripts/registra-scelta.mjs e la bozza si aggiorna.
+
+Copia congelata (sempre): quando la bozza è completa, con le varianti già scelte dall'autore (o subito, se non ci sono varianti), salva una copia identica in congelate/<stesso-nome>.md. Senza la sezione "## Varianti". Si crea una volta sola e non si modifica mai (l'hook lo impedisce): serve alla revisione della domenica per capire cosa l'umano ha cambiato.
+
+Le "Osservazioni in corso" e le "Proposte in attesa" del playbook NON si applicano.
 
 Non toccare mai coda/ o pubblicati/.

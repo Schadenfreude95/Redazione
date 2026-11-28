@@ -28,11 +28,12 @@ if (['Write', 'Edit', 'MultiEdit', 'NotebookEdit'].includes(tool)) {
     if (tool === 'Write' && !existsSync(resolve(root, p))) process.exit(0); // prima creazione: ammessa
     blocca(`Bloccato: ${p} è una copia congelata. Si crea una volta e non si modifica mai: serve al confronto con la versione pubblicata.`);
   }
+  if (/bozze\/\.versioni\//.test(p)) blocca(`Bloccato: ${p} è lo storico automatico delle versioni. Non si modifica a mano.`);
   if (protetti.test(p)) blocca(`Bloccato: non si scrive direttamente in ${p}. Serve il tuo APPROVO e poi scripts/metti-in-coda.mjs.`);
 }
 if (tool === 'Bash') {
   const cmd = String(ti.command || '');
-  const consentito = /^\s*node\s+scripts\/(metti-in-coda\.mjs\s+bozze\/[\w.\-]+\.md|segna-pubblicato\.mjs\s+coda\/[\w.\-]+\.md(\s+bozze\/[\w.\-]+\.md)?|confronta\.mjs\s+congelate\/[\w.\-]+\.md\s+pubblicati\/[\w.\-]+\.md)\s*$/.test(cmd);
+  const consentito = /^\s*node\s+scripts\/(metti-in-coda\.mjs\s+bozze\/[\w.\-]+\.md|segna-pubblicato\.mjs\s+coda\/[\w.\-]+\.md(\s+bozze\/[\w.\-]+\.md)?(\s+prima-ora:(si|in-parte|no))?|confronta\.mjs\s+congelate\/[\w.\-]+\.md\s+pubblicati\/[\w.\-]+\.md)\s*$/.test(cmd);
   if (!consentito && protetti.test(cmd) && /(>|cp|mv|rsync|tee|touch|rm|sed\s+-i|ln|install|dd|python|node|perl|ruby|curl|wget)/.test(cmd)) {
     blocca('Bloccato: comando che tocca coda/, pubblicati/, congelate/ o .approvazioni/. Ammessi solo: node scripts/metti-in-coda.mjs, node scripts/segna-pubblicato.mjs, node scripts/confronta.mjs.');
   }

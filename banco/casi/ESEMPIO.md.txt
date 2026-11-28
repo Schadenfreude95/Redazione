@@ -1,0 +1,9 @@
+---
+formato: Caso cliente come conversazione
+fonte: post pubblicato il gg/mm/aaaa
+---
+## Materiale
+(incolla qui gli appunti di partenza: la storia, il dialogo, il messaggio grezzo)
+
+## Versione dell'autore
+(incolla qui il testo finale scritto dall'autore)

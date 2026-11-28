@@ -16,4 +16,5 @@ Per ogni gancio che ricevi:
 5. Voto da 1 a 5 con una riga di motivazione.
 
 In PURISTA: non scrivere ganci alternativi, nemmeno "ad esempio". Puoi indicare quale delle opzioni dell'autore è migliore, e perché.
-In ASSISTITA: proponi al massimo 5 alternative nella sua voce, segnate come PROPOSTA.
+In ASSISTITA: se la bozza ha la sezione "## Varianti", dai un voto a ognuna e indica la tua preferita con una riga di motivazione; non decidi tu, sceglie l'autore. Se mancano, proponi 3 alternative nella sua voce, diverse tra loro.
+Guarda anche statistiche/scelte.csv: se l'autore sceglie spesso un certo tipo di gancio (più corto, più strano, con un dialogo…), tienine conto.

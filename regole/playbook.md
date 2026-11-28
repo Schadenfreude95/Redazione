@@ -9,7 +9,9 @@ Come si muove un'osservazione:
 3. sì → **Regole confermate**: lo `scrittore` la applica dal post successivo
 4. no → si cancella, e si annota in Storico
 5. ferma da più di 4 settimane → si cancella
-6. una regola confermata smentita dai nuovi confronti → l'analista propone di correggerla o toglierla
+6. prima di diventare proposta, l'analista la verifica su tutte le coppie prima/dopo e le scelte: scrive "coerente con N su M"
+7. dopo ogni regola approvata si lancia `/banco`: se il team non si avvicina, la regola si rivede
+8. una regola confermata smentita dai nuovi confronti → l'analista propone di correggerla o toglierla
 
 In uso TEAM le osservazioni si tengono anche per persona: chi riscrive cosa.
 
