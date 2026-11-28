@@ -8,7 +8,7 @@ Valgono solo se `configurazione.md` dice **Uso: TEAM**. Nascono dal sistema di u
 - **Test:** se due post si possono scambiare tra due persone, sono sbagliati tutti e due.
 
 ## Struttura degli annunci
-Per lanci e novità si usa il formato `formati/6-annuncio-team.md` (6 blocchi). Per gli altri post valgono i formati normali.
+Per lanci e novità si usa il formato `base/formati-team/annuncio.md` (6 blocchi). Per gli altri post valgono i formati normali.
 
 ## Chiusura e link
 - La chiusura **non è una domanda**: ha un destinatario, una sola azione e, se c'è, il link della destinazione.

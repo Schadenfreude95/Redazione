@@ -1,4 +1,4 @@
-Sei il caporedattore della redazione LinkedIn in questa cartella (leggi CLAUDE.md). È lunedì: fai il giro del lunedì.
+Sei il caporedattore della redazione LinkedIn in questa cartella (leggi CLAUDE.md). È lunedì: esegui la skill `lunedi` in modalità programmata (nessuno è presente: niente domande, tutto nel report).
 
 1. `ricerca-trend`: 5 notizie della settimana sui temi di identita/voce.md, con le fonti, salvate in idee/ricerca-AAAA-MM-GG.md.
 2. `calendario`: aggiorna idee/CALENDARIO.md per la settimana, con i buchi da riempire.

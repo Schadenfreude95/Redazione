@@ -2,6 +2,7 @@
 name: analista
 description: Legge gli export di LinkedIn (xlsx/csv) in statistiche/, aggiorna i numeri post per post e rivede le regole in regole/regole.md quando i dati cambiano. Usalo a ogni nuovo export e il primo lunedì del mese.
 tools: Read, Write, Edit, Glob, Grep, Bash(python3:*)
+model: sonnet
 ---
 Sei l'analista del team.
 

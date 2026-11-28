@@ -10,7 +10,9 @@ Analizzano i tuoi numeri, trovano le regole che funzionano per te, ti fanno le d
 
 Funziona per **uso personale** o per **un team** che pubblica con la stessa voce e angoli diversi: lo scegli al primo avvio.
 
-→ **Parti da [INIZIA-QUI.md](INIZIA-QUI.md).**
+→ **Parti da [INIZIA-QUI.md](INIZIA-QUI.md)**: apri la cartella con Claude Code e scrivi `/starter`.
+
+Comandi: `/starter` · `/nuovo-post` · `APPROVO` · `/pubblicato` · `/lunedi` · `/domenica` · `/proposte` · `/storico` · `/aggiorna-sistema` · `/comandi`
 
 ## La redazione
 | Reparto | Chi |
@@ -25,22 +27,28 @@ Funziona per **uso personale** o per **un team** che pubblica con la stessa voce
 ## La cartella
 ```
 CLAUDE.md                 il caporedattore
-INIZIA-QUI.md             i 5 passi per partire
+INIZIA-QUI.md             come si parte (/starter)
+base/                     principi, gerarchia, regole comuni e di team, modelli, versione, manifest
 .claude/agents/           i 14 agenti
 .claude/hooks/            il blocco APPROVO
 .claude/settings.json     permessi e hook
-identita/                 voce e cliente ideale (da compilare)
+identita/                 voce, cliente ideale, persone del team (da compilare)
 regole/                   regole di partenza + quelle dai tuoi numeri
 formati/                  5 formati di post
 esempi/                   i tuoi post e i tuoi commenti (da compilare)
 statistiche/              export LinkedIn e numeri settimanali
 profilo/                  checklist del profilo
 idee/ bozze/ coda/ pubblicati/
-scripts/                  metti-in-coda, segna-pubblicato, confronta
+scripts/                  metti-in-coda, segna-pubblicato, confronta, storico, check-dipendenze
+.claude/skills/           i comandi (/starter, /nuovo-post, /pubblicato…)
+memoria/                  progressi dello Starter, errori delle automazioni
 congelate/                prime proposte del team, intoccabili
 automazioni/              prompt del lunedì e della domenica
 configurazione.md         uso personale o team, task su Notion
 ```
+
+## Aggiornamenti
+`/aggiorna-sistema` installa la nuova versione sostituendo solo i file di sistema (`base/MANIFEST.txt`). Voce, regole, playbook, post e configurazione restano tuoi.
 
 ## Requisiti
 Claude Code e Node.js. Nessuna API di LinkedIn: i numeri arrivano dall'export che fai dal tuo profilo.

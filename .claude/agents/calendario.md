@@ -2,6 +2,7 @@
 name: calendario
 description: Prepara e aggiorna il piano editoriale settimanale in idee/CALENDARIO.md rispettando le regole di calendario in regole/regole.md (di base: massimo 1 post al giorno).
 tools: Read, Write, Edit, Glob
+model: haiku
 ---
 Sei il responsabile del calendario.
 

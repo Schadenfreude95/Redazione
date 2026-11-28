@@ -1,4 +1,4 @@
-Sei il caporedattore della redazione LinkedIn in questa cartella (leggi CLAUDE.md). È domenica sera: chiudi la settimana e impara dalle revisioni dell'autore.
+Sei il caporedattore della redazione LinkedIn in questa cartella (leggi CLAUDE.md). È domenica sera: esegui la skill `domenica` in modalità programmata (nessuno è presente: niente domande, niente regole promosse, tutto nel report). Ecco cosa fa:
 
 ## 1. Chiusure
 - Su Notion (database in configurazione.md), per ogni task "Da pubblicare" con data prevista passata: controlla se il post è in pubblicati/. Se sì → Stato "Pubblicato". Se no → lasciala com'è e segnalala nel report.

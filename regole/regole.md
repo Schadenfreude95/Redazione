@@ -17,14 +17,10 @@ Copiato da `identita/cliente-ideale.md`: cosa conta come post riuscito, in ordin
 - **Chiudi con una domanda sull'esperienza del lettore**, non con "che ne pensate?".
 - **Un dato da una ricerca vale più di tre opinioni.** Uno per post, con la fonte nel primo commento.
 
-## Regole comuni a tutti gli usi (BLOCCANTI)
-- **Tic dell'AI:** niente "non è solo X, è Y", niente gruppi di tre forzati, niente em dash a raffica, niente participi presenti appiccicati in fondo, niente frasi da brochure, niente liste da pagina prodotto.
-- **Parole vietate:** innovativo, rivoluzionario, game-changing, soluzione, semplice e intuitivo, ottimizziamo, cruciale, fondamentale, panorama, testimonianza, valorizzare, "felice di annunciare". Aggiungi le tue.
-- **Due test:** 1) potrebbe stare sul profilo di un'altra persona del tuo stesso mestiere? 2) potrebbe essere scambiato con il post di un'altra persona? Se sì, è da buttare.
-- **Numeri mai inventati:** se manca un dato si scrive `[DA COMPILARE: …]`.
-- **L'ultima parola è sempre dell'umano.**
+## Regole comuni (BLOCCANTI)
+Stanno in `base/regole-comuni.md`: tic dell'AI, parole vietate, i due test, numeri mai inventati. Le aggiornano gli aggiornamenti del sistema; le tue aggiunte vanno qui sotto.
 
-In uso TEAM valgono in più le regole di `regole/regole-team.md`.
+In uso TEAM valgono in più le regole di `base/regole-team.md`.
 
 ## Regole tue (BLOCCANTI)
 Esempi: "mai vendita diretta nei post", "niente politica nei post", "mai nominare l'azienda per cui lavoro in certi post".

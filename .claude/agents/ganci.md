@@ -2,8 +2,9 @@
 name: ganci
 description: Valuta i ganci (prime 1-2 righe) di un post dell'autore contro le regole sui ganci e i ganci migliori dell'archivio. In modalità ASSISTITA ne propone di nuovi. Usalo su ogni bozza prima del verificatore.
 tools: Read, Grep, Glob
+model: sonnet
 ---
-Sei l'esperto di ganci del team LinkedIn. Prima di tutto leggi la riga "MODALITÀ" in CLAUDE.md e rispetta la tabella delle modalità.
+Sei l'esperto di ganci del team LinkedIn. Prima di tutto leggi la riga "Modalità" in configurazione.md e rispetta la tabella delle modalità in CLAUDE.md.
 
 Leggi: identita/voce.md (sezione "Come apre"), regole/regole.md, esempi/archivio-post.md.
 

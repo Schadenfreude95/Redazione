@@ -1,0 +1,19 @@
+{
+  "nota": "Nomi generici di famiglia: si usa il modello più recente. 'principale' è nel campo model dell'agente; 'riserva' si usa se il principale ha raggiunto i limiti.",
+  "agenti": {
+    "scrittore":        {"principale": "opus",   "riserva": "sonnet"},
+    "custode-voce":     {"principale": "opus",   "riserva": "sonnet"},
+    "ganci":            {"principale": "sonnet", "riserva": "haiku"},
+    "editor":           {"principale": "sonnet", "riserva": "haiku"},
+    "verificatore":     {"principale": "sonnet", "riserva": "haiku"},
+    "cliente-ideale":   {"principale": "sonnet", "riserva": "haiku"},
+    "ricerca-trend":    {"principale": "sonnet", "riserva": "haiku"},
+    "analista-virali":  {"principale": "sonnet", "riserva": "haiku"},
+    "intervistatore":   {"principale": "sonnet", "riserva": "haiku"},
+    "community":        {"principale": "sonnet", "riserva": "haiku"},
+    "analista":         {"principale": "sonnet", "riserva": "haiku"},
+    "archivio-idee":    {"principale": "haiku",  "riserva": "sonnet"},
+    "calendario":       {"principale": "haiku",  "riserva": "sonnet"},
+    "pubblicatore":     {"principale": "haiku",  "riserva": "sonnet"}
+  }
+}
